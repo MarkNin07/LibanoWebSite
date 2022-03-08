@@ -1,3 +1,4 @@
+/*With the declaration below, the height & width of the box will remain fixed. The border thickness and padding will be included inside of the box*/
 * {
   box-sizing: border-box;
 }
@@ -42,7 +43,7 @@ hr {
 }
 
 h1 {
-  font-family: "Lucida Grande";
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 51px;
   color: #1e280a;
@@ -52,7 +53,7 @@ h1 {
 
 /*Here are the CSS code to style the <main> section id="whoAmI"*/
 #whoAmI {
-  height: 410px;
+  height: 417px;
   width: 100%;
   border: 1px solid #58751d;
   background-color: #9ace33;
@@ -60,7 +61,7 @@ h1 {
 
 h2 {
   text-align: center;
-  font-family: "Lucida Grande";
+  font-family: "Open Sans", sans-serif;
   font-weight: bold;
   font-size: 30px;
   color: #141b07;
@@ -70,6 +71,7 @@ p {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Verdana, sans-serif;
   font-size: 20px;
+  line-height: 25px;
   padding-right: 50px;
 }
 
@@ -87,6 +89,11 @@ p {
   margin-top: 2px;
 }
 
+.pService,
+.service-conclusion,
+.list-of-services {
+  margin-left: 10px;
+}
 #nurse {
   height: 360px;
   float: right;
@@ -95,7 +102,7 @@ p {
 .list {
   font-size: 20px;
   font-family: "Lucida Sans";
-  line-height: 35px;
+  line-height: 1.5;
 }
 
 /*Here are the CSS code to style the <footer> section*/
