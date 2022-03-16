@@ -113,10 +113,31 @@ p {
 }
 
 /*Here are the CSS code to style the <footer> section*/
+footer {
+  background-color: #4e681a;
+  height: 175px;
+  width: 100%;
+  align-items: center;
+}
+
+#footer-title {
+  text-align: center;
+  color: #d8e2ca;
+}
+
+.contact-list {
+  color: #e4efd5;
+  font-size: 18px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
 .eml {
   border: 1px solid #58751d;
   border-radius: 50px;
   padding: 7px;
   background-color: #caec50;
   text-decoration: none;
+  color: #28350d;
 }
