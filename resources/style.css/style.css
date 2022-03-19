@@ -107,7 +107,7 @@ p {
   margin-left: 10px;
 }
 #nurse {
-  height: 360px;
+  height: 355px;
   float: right;
 }
 
@@ -115,6 +115,27 @@ p {
   font-size: 20px;
   font-family: "Lucida Sans";
   line-height: 1.5;
+}
+
+/*You can find below the CSS code for the contactUs section*/
+
+.contactUs {
+  border: 1px solid #58751d;
+  margin-top: 2px;
+  height: 800px;
+  background-image: url("../pictures/Taking\ Care\ of\ an\ elderly\ person.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-origin: border-box;
+}
+
+#contactUs,
+h3 {
+  text-align: right;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.75em;
+  margin-right: 50px;
+  color: #141b07;
 }
 
 /*Here are the CSS code to style the <footer> section*/
